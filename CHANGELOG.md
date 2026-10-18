@@ -1,6 +1,11 @@
 # Changelog
 
-## 0.2.0 (unreleased)
+## 0.2.1
+
+- Include `TESTING.md` in the npm package and installed skill so the README's
+  testing link works for npm users.
+
+## 0.2.0
 
 - Licence: MIT for the instructions and docs; the reference artwork stays WRHSE's,
   usable unmodified with the skill (references/ARTWORK-LICENSE.md).

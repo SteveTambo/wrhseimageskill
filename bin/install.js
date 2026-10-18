@@ -6,7 +6,7 @@ const os = require("os");
 const path = require("path");
 
 const SKILL_NAME = "wrhse-product-photo-styler";
-const SKILL_ITEMS = ["SKILL.md", "README.md", "CHANGELOG.md", "LICENSE", "agents", "references"];
+const SKILL_ITEMS = ["SKILL.md", "README.md", "TESTING.md", "CHANGELOG.md", "LICENSE", "agents", "references"];
 const TARGETS = {
   claude: path.join(os.homedir(), ".claude", "skills"),
   codex: path.join(os.homedir(), ".codex", "skills"),

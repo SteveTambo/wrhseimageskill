@@ -1,12 +1,12 @@
 {
   "name": "wrhse-product-photo-styler",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Agent skill that restyles merchant product photos into WRHSE catalog card images. Installs into Claude Code and Codex.",
   "keywords": ["wrhse", "agent-skill", "claude-code", "codex", "product-photo"],
   "homepage": "https://github.com/SteveTambo/wrhseimageskill#readme",
   "repository": { "type": "git", "url": "git+https://github.com/SteveTambo/wrhseimageskill.git" },
   "license": "MIT",
   "bin": { "wrhse-product-photo-styler": "bin/install.js" },
-  "files": ["bin", "SKILL.md", "README.md", "CHANGELOG.md", "LICENSE", "agents", "references"],
+  "files": ["bin", "SKILL.md", "README.md", "TESTING.md", "CHANGELOG.md", "LICENSE", "agents", "references"],
   "engines": { "node": ">=16.7" }
 }
