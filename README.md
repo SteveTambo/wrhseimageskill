@@ -1,33 +1,35 @@
 # WRHSE Product Photo Styler
 
-An agent skill that turns a merchant's product photo into a clean image in the
+A Codex skill that turns a merchant's product photo into a clean image in the
 WRHSE catalog style, while keeping the real product accurate. The merchant
 reviews the result and uploads the version they approve to their WRHSE listing.
 
-There is no WRHSE image service behind this. The merchant's own connected agent
-does the image work, using the instructions and reference cards in this repo.
+There is no WRHSE image service behind this. The merchant's own Codex does the
+image work, using the instructions and reference cards in this repo.
 
 ## What a merchant needs
 
-- An AI agent that supports skills **and** has an image generation/editing tool
-  that accepts input images (for example Codex with image generation).
+- [Codex](https://developers.openai.com/codex) with image generation turned on,
+  so it can edit a photo using reference images. This skill is built for Codex
+  and is not supported in other agents.
 - A photo of the product: well lit, in focus, one product, taken by them or
   with the right to use it.
 
 ## Install
 
-The repository root is the skill folder. Put it in the agent's skills directory
+The repository root is the skill folder. It goes in Codex's skills directory
 under the name `wrhse-product-photo-styler`.
 
-**npm (Claude Code and Codex)**
+**npm**
 
 ```bash
 npx wrhse-product-photo-styler
 ```
 
-Add `--claude` or `--codex` to pick one agent, `--force` to replace an existing install.
+Add `--force` to replace an existing install. It installs under `$CODEX_HOME`
+when that is set.
 
-**Codex**
+**git**
 
 - Windows: `%USERPROFILE%\.codex\skills\wrhse-product-photo-styler`
 - macOS / Linux: `~/.codex/skills/wrhse-product-photo-styler`
@@ -36,13 +38,7 @@ Add `--claude` or `--codex` to pick one agent, `--force` to replace an existing 
 git clone https://github.com/SteveTambo/wrhseimageskill ~/.codex/skills/wrhse-product-photo-styler
 ```
 
-**Claude Code**
-
-```bash
-git clone https://github.com/SteveTambo/wrhseimageskill ~/.claude/skills/wrhse-product-photo-styler
-```
-
-Then start a new session. Update later with `git pull` inside that folder.
+Then start a new Codex session. Update later with `git pull` inside that folder.
 Release notes are in [CHANGELOG.md](CHANGELOG.md).
 
 ## Use

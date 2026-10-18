@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.0
+
+- Codex only. The skill needs Codex's image generation, so the installer no
+  longer targets Claude Code and the `--claude` and `--codex` flags are gone:
+  `npx wrhse-product-photo-styler` installs for Codex (`$CODEX_HOME`, default
+  `~/.codex`). The README documents Codex only.
+
 ## 0.2.1
 
 - Include `TESTING.md` in the npm package and installed skill so the README's
