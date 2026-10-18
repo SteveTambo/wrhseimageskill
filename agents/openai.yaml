@@ -1,0 +1,4 @@
+interface:
+  display_name: "WRHSE Product Photo Styler"
+  short_description: "Clean up and restyle product photos for WRHSE"
+  default_prompt: "Use $wrhse-product-photo-styler to prepare this merchant product photo in the WRHSE catalog style."
