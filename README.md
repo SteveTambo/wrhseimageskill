@@ -19,6 +19,14 @@ does the image work, using the instructions and reference cards in this repo.
 The repository root is the skill folder. Put it in the agent's skills directory
 under the name `wrhse-product-photo-styler`.
 
+**npm (Claude Code and Codex)**
+
+```bash
+npx wrhse-product-photo-styler
+```
+
+Add `--claude` or `--codex` to pick one agent, `--force` to replace an existing install.
+
 **Codex**
 
 - Windows: `%USERPROFILE%\.codex\skills\wrhse-product-photo-styler`
