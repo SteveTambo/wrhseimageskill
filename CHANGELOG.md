@@ -2,6 +2,8 @@
 
 ## 0.2.0 (unreleased)
 
+- Licence: MIT for the instructions and docs; the reference artwork stays WRHSE's,
+  usable unmodified with the skill (references/ARTWORK-LICENSE.md).
 - Added eleven WRHSE product-card reference images and an index of which suits
   which product shape.
 - Added a measurable style guide for tools that cannot take reference images.

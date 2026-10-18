@@ -77,14 +77,21 @@ illustrations, drawn from scratch for WRHSE (see `scripts/generate-demo-art.mjs`
 in the WRHSE web app). They are style references only. Their placeholder labels
 are not product claims and must never be copied into a merchant's image.
 
-No license has been chosen for this repository yet, so all rights are reserved
-by WRHSE. Add a `LICENSE` file before inviting outside contributions.
+## Licence
+
+- The instructions, documentation and other text in this repository are
+  [MIT licensed](LICENSE).
+- The reference cards in `references/cards/` are WRHSE artwork and are **not**
+  MIT licensed. You may use them, unmodified, with this skill; you may not
+  reuse, modify or redistribute them separately. See
+  [references/ARTWORK-LICENSE.md](references/ARTWORK-LICENSE.md).
 
 ## Improving the skill
 
 - Change one thing at a time and run the cases in [TESTING.md](TESTING.md).
-- To add a reference card: 800 x 1200 PNG, 2:3, one product, no readable brand
-  text, same style rules as `references/style-guide.md`, and a row in
+- Text contributions are welcome under the MIT licence. Reference cards are
+  added only by WRHSE. A card is an 800 x 1200 PNG (2:3), one product, no
+  readable brand text, following `references/style-guide.md`, with a row in
   `references/INDEX.md`. Keep the set small; more references make results less
   consistent, not more.
 - Bump the version in `CHANGELOG.md` for every change a merchant could notice.
